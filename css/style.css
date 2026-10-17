@@ -209,7 +209,7 @@ a {
     background-color: #3b4fd8;
     background-image:
         linear-gradient(90deg, rgba(36, 40, 140, 0.92) 0%, rgba(40, 60, 190, 0.7) 45%, rgba(40, 60, 190, 0.1) 100%),
-        url("../../images/lentera.jpg");
+        url("../images/lentera.jpg");
     background-position: center;
     background-size: cover;
     color: var(--putih);
