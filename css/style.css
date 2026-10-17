@@ -930,8 +930,9 @@ a {
     }
 
     .hero-kutipan {
-        display: none;
-    }
+        display: block;
+        justify-self: end;
+}
 
     .modal-sampul {
         max-width: 150px;
