@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontak | Lentera Lembaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-halaman="contact">
+
+    <header class="header-situs" id="header-situs"></header>
+
+    <main>
+        <section class="judul-halaman">
+            <div class="container">
+                <h1>Hubungi Kami</h1>
+                <p>Pertanyaan, usulan judul, dan masukan untuk perbaikan situs selalu kami sambut.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <form class="form form-mandiri" id="form-kontak" novalidate>
+                <h2>Kirim pesan</h2>
+
+                <div class="fld">
+                    <label for="k-nama">Nama</label>
+                    <input id="k-nama" name="nama" type="text" autocomplete="name">
+                    <small class="err" data-untuk="nama"></small>
+                </div>
+                <div class="fld">
+                    <label for="k-surel">Surel</label>
+                    <input id="k-surel" name="surel" type="email" autocomplete="email">
+                    <small class="err" data-untuk="surel"></small>
+                </div>
+                <div class="fld">
+                    <label for="k-subjek">Subjek</label>
+                    <input id="k-subjek" name="subjek" type="text">
+                    <small class="err" data-untuk="subjek"></small>
+                </div>
+                <div class="fld">
+                    <label for="k-pesan">Pesan</label>
+                    <textarea id="k-pesan" name="pesan" rows="5"></textarea>
+                    <small class="err" data-untuk="pesan"></small>
+                </div>
+
+                <button class="btn" type="submit">Kirim pesan</button>
+                <p class="hasil" role="status" hidden></p>
+                <p class="catatan">
+                    Formulir ini membuka aplikasi surel Anda dengan pesan yang sudah terisi.
+                    Anda juga dapat menulis langsung ke <a id="tautan-surel" href="#"></a>.
+                </p>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer-situs" id="footer-situs"></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Novel | Lentera Lembaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-halaman="novels">
+
+    <header class="header-situs" id="header-situs"></header>
+
+    <main>
+        <section class="judul-halaman">
+            <div class="container">
+                <h1>Koleksi Novel</h1>
+                <p>Kisah rekaan yang mengajak kita menjelajahi dunia lain, dari fantasi hingga fiksi ilmiah.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="toolbar">
+                <div class="pilihan" role="group" aria-label="Mode tampilan">
+                    <button type="button" class="on" data-mode="semua" aria-pressed="true">Semua</button>
+                    <button type="button" data-mode="genre" aria-pressed="false">Pilih Genre</button>
+                </div>
+                <div class="pencarian">
+                    <label class="sr" for="cari">Cari judul atau penulis</label>
+                    <input id="cari" type="search" placeholder="Cari judul atau penulis">
+                </div>
+            </div>
+
+            <div class="chips" id="daftar-genre" role="group" aria-label="Daftar genre" hidden></div>
+            <p class="info-hasil" id="info-hasil" aria-live="polite"></p>
+
+            <div class="rak" id="rak"></div>
+            <p class="kosong" id="kosong" hidden></p>
+        </div>
+    </main>
+
+    <footer class="footer-situs" id="footer-situs"></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

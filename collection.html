@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Koleksi | Lentera Lembaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-halaman="collection">
+
+    <header class="header-situs" id="header-situs"></header>
+
+    <main>
+        <section class="judul-halaman">
+            <div class="container">
+                <h1>Koleksi Saya</h1>
+                <p>Tempat favorit, simpanan, dan riwayat bacaan Anda berkumpul.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="toolbar">
+                <div class="pilihan" role="group" aria-label="Bagian koleksi">
+                    <button type="button" class="on" data-bagian="favorit" aria-pressed="true">Favorit <span class="jumlah">0</span></button>
+                    <button type="button" data-bagian="simpanan" aria-pressed="false">Simpanan <span class="jumlah">0</span></button>
+                    <button type="button" data-bagian="riwayat" aria-pressed="false">Riwayat <span class="jumlah">0</span></button>
+                </div>
+                <button class="btn btn-kecil btn-garis" type="button" id="hapus-riwayat" hidden>Hapus Riwayat</button>
+            </div>
+
+            <p class="catatan" id="info-akun"></p>
+
+            <div class="rak" id="rak"></div>
+            <p class="kosong" id="kosong" hidden></p>
+        </div>
+    </main>
+
+    <footer class="footer-situs" id="footer-situs"></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

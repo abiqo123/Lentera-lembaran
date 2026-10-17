@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Masuk | Lentera Lembaran</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-halaman="login">
+
+    <header class="header-situs" id="header-situs"></header>
+
+    <main>
+        <section class="judul-halaman">
+            <div class="container">
+                <h1>Masuk atau Daftar</h1>
+                <p>Masuk agar favorit, simpanan, dan riwayat bacaan tersimpan pada akun Anda.</p>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="pilihan pusat" role="group" aria-label="Pilih formulir">
+                <button type="button" class="on" data-form="login" aria-pressed="true">Masuk</button>
+                <button type="button" data-form="daftar" aria-pressed="false">Daftar</button>
+            </div>
+
+            <form class="form" id="form-login" novalidate>
+                <h2>Masuk</h2>
+                <div class="fld">
+                    <label for="l-akun">Surel atau nama pengguna</label>
+                    <input id="l-akun" name="akun" type="text" autocomplete="username">
+                    <small class="err" data-untuk="akun"></small>
+                </div>
+                <div class="fld">
+                    <label for="l-sandi">Kata sandi</label>
+                    <input id="l-sandi" name="sandi" type="password" autocomplete="current-password">
+                    <small class="err" data-untuk="sandi"></small>
+                </div>
+                <button class="btn" type="submit">Masuk</button>
+                <p class="hasil" role="status" hidden></p>
+            </form>
+
+            <form class="form" id="form-daftar" novalidate hidden>
+                <h2>Buat akun</h2>
+                <div class="fld">
+                    <label for="d-nama">Nama lengkap</label>
+                    <input id="d-nama" name="nama" type="text" autocomplete="name">
+                    <small class="err" data-untuk="nama"></small>
+                </div>
+                <div class="fld">
+                    <label for="d-surel">Surel</label>
+                    <input id="d-surel" name="surel" type="email" autocomplete="email">
+                    <small class="err" data-untuk="surel"></small>
+                </div>
+                <div class="fld">
+                    <label for="d-username">Nama pengguna</label>
+                    <input id="d-username" name="username" type="text" autocomplete="username">
+                    <small class="err" data-untuk="username"></small>
+                </div>
+                <div class="fld">
+                    <label for="d-sandi">Kata sandi</label>
+                    <input id="d-sandi" name="sandi" type="password" autocomplete="new-password">
+                    <small class="err" data-untuk="sandi"></small>
+                </div>
+                <div class="fld">
+                    <label for="d-ulang">Konfirmasi kata sandi</label>
+                    <input id="d-ulang" name="ulang" type="password" autocomplete="new-password">
+                    <small class="err" data-untuk="ulang"></small>
+                </div>
+                <button class="btn" type="submit">Daftar</button>
+                <p class="hasil" role="status" hidden></p>
+            </form>
+
+            <p class="catatan pusat-teks">Akun dan koleksi disimpan di peramban pada perangkat ini.</p>
+        </div>
+    </main>
+
+    <footer class="footer-situs" id="footer-situs"></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

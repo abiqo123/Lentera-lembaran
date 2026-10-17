@@ -1,0 +1,44 @@
+Sampul bersifat opsional.
+Simpan sampul di folder ini (format jpg) dengan nama berikut.
+Jika berkas tidak ada, situs menampilkan sampul bawaan.
+
+sapiens.jpg
+guns-germs-and-steel.jpg
+a-brief-history-of-time.jpg
+cosmos.jpg
+the-innovators.jpg
+the-code-book.jpg
+thinking-fast-and-slow.jpg
+man-s-search-for-meaning.jpg
+atomic-habits.jpg
+deep-work.jpg
+filosofi-teras.jpg
+meditations.jpg
+freakonomics.jpg
+the-psychology-of-money.jpg
+steve-jobs.jpg
+becoming.jpg
+harry-potter-dan-batu-bertuah.jpg
+singa-penyihir-dan-lemari-pakaian.jpg
+the-hobbit.jpg
+life-of-pi.jpg
+the-three-musketeers.jpg
+casino-royale.jpg
+pride-and-prejudice.jpg
+perahu-kertas.jpg
+anna-karenina.jpg
+laskar-pelangi.jpg
+and-then-there-were-none.jpg
+the-hound-of-the-baskervilles.jpg
+gone-girl.jpg
+the-da-vinci-code.jpg
+dracula.jpg
+the-shining.jpg
+dune.jpg
+the-martian.jpg
+1984.jpg
+the-hunger-games.jpg
+lima-bacaan-untuk-akhir-pekan.jpg
+dua-puluh-menit-setiap-hari.jpg
+menjaga-fokus-saat-membaca-di-layar.jpg
+memilih-novel-pertama.jpg
