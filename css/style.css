@@ -922,7 +922,7 @@ a {
     .hero {
         background-image:
             linear-gradient(rgba(36, 40, 140, 0.85), rgba(40, 60, 190, 0.85)),
-            url("../../images/lentera.jpg");
+            url("../images/lentera.jpg");
     }
 
     .hero h1 {
